@@ -1,0 +1,259 @@
+@font-face {
+    font-family: font ;
+    src: url(./Pochaevsk-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #F5F4F0;
+    font-family: font;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    height: 13%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rt{
+ font-size: 22px;
+ font-weight: 400;
+}
+#md{
+ display: flex;
+ gap: 40px;
+ font-weight: 300;
+ font-size: 12px;
+}
+#md h3{
+ padding-bottom: 4px;
+ border-bottom: 1.5px solid transparent;
+  transition: border-color 0.25s ease-in-out;
+}
+#md h3:hover{
+    cursor: pointer;
+    border-bottom-color: black;
+    
+}
+#lt i{
+ font-size: 26px;
+ padding-left: 30px;
+}
+
+section{
+    margin-top: 10px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+}
+#right{
+    position: relative;
+height: 100%;
+width: 80%;
+}
+#right #top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* padding-bottom: 10px; */
+}
+#top h4{
+    color:#5F674F;
+}
+#cotton h2{
+    font-size: 80px;
+    font-weight: 400;
+    /* padding-bottom: 10px; */
+}
+#cotton p{
+    font-size: 14px;
+    line-height: 22px;
+}
+#color{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+#one{
+    border-radius: 50px;
+ height: 20px;
+ width: 20px;
+ background-color: rgb(98, 192, 98);
+}
+#two{
+    border-radius: 50px;
+height: 20px;
+ width: 20px;
+ background-color: thistle;
+}
+#three{
+    border-radius: 50px;
+height: 20px;
+ width: 20px;
+ background-color:pink;
+}
+#details h3{
+  padding-top: 10px;
+}
+#details p{
+    padding-top: 10px;
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#bottom #ft2{
+    border-left: 1px solid black;
+    padding-left: 40px;
+}
+#bottom #ft3{
+   border-left: 1px solid black;
+    padding-left: 40px; 
+}
+#side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    rotate: calc(270deg);
+    top: 300px;
+    right: -120px;
+    font-size: 23px;
+    font-weight: 400;
+}
+#side #line{
+    height: 1.6px;
+    width: 65px;
+    background-color:#5F674F;
+}
+#right img{
+    height: 30px;
+    
+}
+#left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+height: 100%;
+width: 100%;
+
+}
+#left #img{
+    height: 80%;
+    width: 85%;
+    border-radius: 20px;
+}
+#img{
+    box-shadow: 0px 2px 15px rgb(211, 213, 209);
+}
+
+#img img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 0% 13%;
+}
+#box{
+    position: absolute;
+    top: 280px;
+    right: 30px;
+    background-color:#5F674F;
+    color: white;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#box i{
+ font-size: 25px;
+}
+#box h3{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+#price{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+ background-color: #fff;
+ padding: 10px 15px;
+ border-radius: 50px;
+ font-size: 13px;
+}
+#rating{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+ background-color: #ffffff8a;
+ padding: 10px 15px;
+ border-radius: 50px;
+ font-size: 13px;
+}
+#rating i{
+    color: #5F674F;
+}
+#dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+height: 15%;
+width: 85%;
+border-radius: 20px;
+margin-top: 20px;
+box-shadow: 0px 2px 10px rgb(211, 213, 209);
+}
+#dis i{
+    font-size: 40px;
+}
+#dis #py{
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+#dis #sh{
+    gap: 7px;
+     display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-left: 1px solid black;
+    padding: 15px;
+}
+#dis #re{
+    gap: 7px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-left: 1px solid black;
+    padding: 15px;
+}
