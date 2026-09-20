@@ -20,15 +20,11 @@ This project was built as a design/UI exercise rather than a real product. The g
 
 ## 🔗 Live Demo
 
-> 🚧 Not deployed yet — coming soon via GitHub Pages.
->
-> Once live, add the link here, e.g.: `https://shivamsingh-net.github.io/A-cotton-weave/`
+ https://shivamsingh-net.github.io/A-cotton-weave/
 
 ## 📸 Preview
 
-> Add a screenshot of the page here once available:
->
-> `![Preview](./pic.png)`
+> <img width="951" height="482" alt="Screenshot 2026-09-20 165840" src="https://github.com/user-attachments/assets/b3915f7b-8302-480a-9722-8bb95cc7bd16" />
 
 ## 🚀 Getting Started
 
